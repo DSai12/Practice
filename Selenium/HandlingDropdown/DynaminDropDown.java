@@ -15,7 +15,7 @@ public class DynaminDropDown {
 		driver.findElement(By.xpath("//td[@class='mapbg'] //a[@value='MAA']")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR']//td[@class='mapbg'] //a[@value='BHO']")).click();
-		driver.quit();
+		
 		
 	}
 
